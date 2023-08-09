@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-
 import random
-
-if __name__ == "__main__":
-    number = random.randint(-10, 10)
-    if number > 0:
-        print("The randomly generated number {} is a positive integer.".format(number))
-    elif number == 0:
-        print("The randomly generated number {} is zero.".format(number))
-    else:
-        print("The randomly generated number {} is a negative integer.".format(number))
-
+number = random.randint(-10000, 10000)
+digit = abs(number) % 10
+if number < 0:
+    digit = -digit
+print("Last digit of {} is {} and is ".format(number, digit), end="")
+if digit > 5:
+    print("greater than 5")
+elif digit == 0:
+    print("0")
+else:
+    print("less than 6 and not 0")
