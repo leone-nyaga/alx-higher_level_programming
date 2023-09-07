@@ -1,0 +1,18 @@
+def text_indentation(text):
+    if not isinstance(text, str):
+        raise TypeError("text must be a string")
+
+    special_characters = ['.', '?', ':']
+
+    sentences = []
+    current_sentence = ""
+
+    for char in text:
+        current_sentence += char
+        if char in special_characters:
+            sentences.append(current_sentence.strip())
+            current_sentence = ""
+
+    formatted_text = "\n\n".join(sentences)
+    return formatted_text
+

@@ -1,0 +1,19 @@
+def create_text_file(filename, content):
+    """
+    Creates a new text file with the given filename and saves the provided content in it.
+    
+    Args:
+        filename (str): The name of the text file.
+        content (str): The content to be saved in the file.
+    
+    Raises:
+        TypeError: If `filename` is not a string or `content` is not a string.
+    """
+    if not isinstance(filename, str):
+        raise TypeError("filename must be a string")
+    if not isinstance(content, str):
+        raise TypeError("content must be a string")
+    
+    with open(filename, "w") as file:
+        file.write(content)
+

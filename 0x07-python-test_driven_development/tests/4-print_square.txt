@@ -1,0 +1,15 @@
+def create_text_file(filename, content):
+    """
+    Creates a text file with the given filename and content.
+
+    Args:
+        filename (str): The name of the text file.
+        content (str): The content to be written in the text file.
+    """
+    try:
+        with open(filename, "w") as file:
+            file.write(content)
+        print("Text file created successfully.")
+    except OSError:
+        print("An error occurred while creating the text file.")
+
