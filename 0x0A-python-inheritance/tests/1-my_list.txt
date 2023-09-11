@@ -1,0 +1,13 @@
+Class Name: MyList
+
+Description:
+The `MyList` class is a subclass of the built-in `list` class. It provides additional functionality to print the list in ascending sorted order.
+
+Public Methods:
+1. print_sorted(self) - Prints the list in ascending sorted order.
+
+Usage Example:
+```python
+my_list = MyList([3, 1, 2, 5, 4])
+my_list.print_sorted()  # Output: [1, 2, 3, 4, 5]
+

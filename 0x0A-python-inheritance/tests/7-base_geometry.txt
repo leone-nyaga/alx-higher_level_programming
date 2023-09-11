@@ -1,0 +1,29 @@
+Class Name: BaseGeometry
+
+Description:
+The `BaseGeometry` class defines geometric operations.
+
+Public Methods:
+1. area(self) - Calculates the area of the geometry. If not implemented, raises an Exception.
+
+2. integer_validator(self, name, value) - Validates that `value` is an integer greater than 0. 
+   - Parameters:
+     - `name` (str): The name of the value.
+     - `value` (int): The value to be validated.
+   - Raises:
+     - TypeError: If `value` is not an integer.
+     - ValueError: If `value` is less than or equal to 0.
+
+Usage Example:
+```python
+geometry = BaseGeometry()
+try:
+    geometry.area()
+except Exception as e:
+    print(f"Error: {e}")
+
+try:
+    geometry.integer_validator("side_length", 5)
+except (TypeError, ValueError) as e:
+    print(f"Validation Error: {e}")
+
