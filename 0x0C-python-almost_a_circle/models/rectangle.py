@@ -5,6 +5,7 @@ Module containing the Rectangle class.
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """
     Rectangle class, inherits from Base.
@@ -139,3 +140,12 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        """
+        Calculates and returns area of the triangle
+
+        Returns:
+            int: Area of the rectangle (width * height).
+        """
+        return self.__width * self.__height
