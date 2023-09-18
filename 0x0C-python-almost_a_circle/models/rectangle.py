@@ -5,7 +5,6 @@ Module containing the Rectangle class.
 
 from models.base import Base
 
-
 class Rectangle(Base):
     """
     Rectangle class, inherits from Base.
@@ -50,7 +49,8 @@ class Rectangle(Base):
             value (int): The width of the rectangle.
 
         Raises:
-            ValueError: If value is not an integer greater than 0.
+            ValueError: If value is not an integer or if it's less
+            than or equal to 0.
         """
         if not isinstance(value, int):
             raise ValueError("width must be an integer")
@@ -77,7 +77,8 @@ class Rectangle(Base):
             value (int): The height of the rectangle.
 
         Raises:
-            ValueError: If value is not an integer greater than 0.
+            ValueError: If value is not an integer or if it's less than
+            or equal to 0.
         """
         if not isinstance(value, int):
             raise ValueError("height must be an integer")
@@ -104,7 +105,7 @@ class Rectangle(Base):
             value (int): The x-coordinate of the rectangle's position.
 
         Raises:
-            ValueError: If value is not an integer greater than or equal to 0.
+            ValueError: If value is not an integer or if it's less than 0.
         """
         if not isinstance(value, int):
             raise ValueError("x must be an integer")
@@ -131,7 +132,7 @@ class Rectangle(Base):
             value (int): The y-coordinate of the rectangle's position.
 
         Raises:
-            ValueError: If value is not an integer greater than or equal to 0.
+            ValueError: If value is not an integer or if it's less than 0.
         """
         if not isinstance(value, int):
             raise ValueError("y must be an integer")
