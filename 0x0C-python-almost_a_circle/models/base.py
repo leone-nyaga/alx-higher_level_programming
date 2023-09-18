@@ -12,11 +12,11 @@ class Base:
         Initializes a new instance of the Base class.
 
         Args:
-            id (int, optional): The ID to assign to the object. If not provided, an incremented ID will be assigned.
+            id (int, optional): The ID to assign to the object. If not provided
+            an incremented ID will be assigned.
         """
         if id is not None:
             self.id = id
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-
