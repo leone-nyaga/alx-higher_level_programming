@@ -7,7 +7,7 @@ let character = [];
 
 request(url, function (err, response, body) {
 	if (err === null) {
-		const filmdata = JSON.parse(body);
+		const filmData = JSON.parse(body);
 		const results = filmData.results;
 
 		if (id < 4) {
@@ -18,7 +18,7 @@ request(url, function (err, response, body) {
 
 		for (let i = 0; i < results.length; i++) {
 			if (results[i].episode_id === id) {
-				characters = result[i].characters;
+				characters = results[i].characters;
 				break;
 			}
 		}
