@@ -157,3 +157,15 @@ Repo:
 + GitHub repository: alx-higher_level_programming
 + Directory: 0x00-python-hello_world
 + File: 2-print.py
+
+3. Print integer
+
+Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+
+You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py)
+The output of the script should be:
+the number, followed by Battery street,
+followed by a new line
+You are not allowed to cast the variable number into a string
+Your code must be 3 lines long
+You have to use f-strings tips
