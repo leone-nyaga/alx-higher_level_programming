@@ -95,3 +95,65 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+
+## TASKS
+
+0. Run Python file
+
+Write a Shell script that runs a Python script.
+
+The Python file name will be saved in the environment variable $PYFILE
+
+```bash
+guillaume@ubuntu:~/py/0x00$ cat main.py 
+#!/usr/bin/python3
+print("Best School")
+
+guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
+guillaume@ubuntu:~/py/0x00$ ./0-run
+Best School
+guillaume@ubuntu:~/py/0x00$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x00-python-hello_world
++ File: 0-run
+
+1. Run inline
+
+Write a Shell script that runs Python code.
+
+The Python code will be saved in the environment variable $PYCODE
+
+```bash
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
+Best School: 98
+guillaume@ubuntu:~/py/0x00$ 
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x00-python-hello_world
++ File: 1-run_inline
+
+2. Hello, print
+
+Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+
+Use the function print
+
+```bash
+guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+"Programming is like building a multilingual puzzle
+guillaume@ubuntu:~/py/0x00$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x00-python-hello_world
++ File: 2-print.py
