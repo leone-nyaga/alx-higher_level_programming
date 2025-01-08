@@ -72,7 +72,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Zen
 
-```The Zen of Python, by Tim Peters
+```
+The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
 Explicit is better than implicit.
