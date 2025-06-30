@@ -90,7 +90,9 @@ guillaume@ubuntu:~/0x12$
 Repo:
 
 **GitHub repository: alx-higher_level_programming**
+
 **Directory: 0x12-javascript-warm_up**
+
 **File: 0-javascript_is_amazing.js**
 
 
