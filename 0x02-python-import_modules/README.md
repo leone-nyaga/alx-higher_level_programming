@@ -47,4 +47,12 @@ man or help:
 
 ## Quiz Questions
 
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x02-python-import_modules/images/module0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x02-python-import_modules/images/module1-2.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x02-python-import_modules/images/module3.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x02-python-import_modules/images/module4.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x02-python-import_modules/images/module5.png)
 
+## Tasks
+
+0. Import a simple function from a simple file
