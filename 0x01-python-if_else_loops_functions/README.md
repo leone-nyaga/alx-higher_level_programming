@@ -1,5 +1,7 @@
 # 0x01. Python - if/else, loops, functions
 
+![meme](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/formeme.png)
+
 ## Resources
 
 Read or watch:
@@ -73,6 +75,15 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## More Info
 
 Note: you do not need to understand lists yet.
+
+## QUIZ QUESTIONS
+
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task1.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task2.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task3-4.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task5-6.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/images/task7-8.png)
 
 ## Tasks
 
@@ -273,3 +284,101 @@ Repo:
 + GitHub repository: alx-higher_level_programming
 + Directory: 0x01-python-if_else_loops_functions
 + File: 5-print_comb2.py
+
+6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+
+Write a program that prints all possible different combinations of two digits.
+
++ Numbers must be separated by ,, followed by a space
++ The two digits must be different
++ 01 and 10 are considered the same combination of the two digits 0 and 1
++ Print only the smallest combination of two digits
++ Numbers should be printed in ascending order, with two digits
++ The last number should be followed by a new line
++ You can only use no more than 3 print functions with string format
++ You can only use no more than 2 loops in your code
++ You are not allowed to store numbers or strings in a variable
++ You are not allowed to import any module
+
+```bash
+guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+guillaume@ubuntu:~/0x01$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x01-python-if_else_loops_functions
++ File: 6-print_comb3.py
+
+7. islower
+
+Write a function that checks for lowercase character.
+
++ Prototype: def islower(c):
++ Returns True if c is lowercase
++ Returns False otherwise
++ You are not allowed to import any module
++ You are not allowed to use str.upper() and str.isupper()
++ Tips: [ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
+
+You don’t need to understand **__import__**
+
+```bash
+guillaume@ubuntu:~/0x01$ cat 7-main.py
+#!/usr/bin/env python3
+islower = __import__('7-islower').islower
+
+print("a is {}".format("lower" if islower("a") else "upper"))
+print("H is {}".format("lower" if islower("H") else "upper"))
+print("A is {}".format("lower" if islower("A") else "upper"))
+print("3 is {}".format("lower" if islower("3") else "upper"))
+print("g is {}".format("lower" if islower("g") else "upper"))
+
+guillaume@ubuntu:~/0x01$ ./7-main.py
+a is lower
+H is upper
+A is upper
+3 is upper
+g is lower
+guillaume@ubuntu:~/0x01$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x01-python-if_else_loops_functions
++ File: 7-islower.py
+
+9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+
+Write a function that prints the last digit of a number.
+
++ Prototype: def print_last_digit(number):
++ Returns the value of the last digit
++ You are not allowed to import any module
++ You don’t need to understand __import__
+
+```bash
+guillaume@ubuntu:~/0x01$ cat 9-main.py
+#!/usr/bin/env python3
+print_last_digit = __import__('9-print_last_digit').print_last_digit
+
+print_last_digit(98)
+print_last_digit(0)
+r = print_last_digit(-1024)
+print(r)
+
+guillaume@ubuntu:~/0x01$ ./9-main.py
+8044
+guillaume@ubuntu:~/0x01$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x01-python-if_else_loops_functions
++ File: 9-print_last_digit.py
+
+
