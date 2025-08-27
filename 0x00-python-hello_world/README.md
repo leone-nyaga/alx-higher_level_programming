@@ -1,5 +1,7 @@
 # 0x00. Python - Hello, World
 
+![frymeme](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/pymeme1.png)
+
 ## Resources
 
 + [The Python tutorial](https://docs.python.org/3/tutorial/index.html)
@@ -95,6 +97,20 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+
+## Pycodestyle
+
+Pycodestyle is now the [new standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
+
+![flying circus](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/flyingcircus.png)
+
+## Quiz Question
+
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/task0-1.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/task2-3.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/task4-5.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/task6-7.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x00-python-hello_world/images/task8-9.png)
 
 ## TASKS
 
