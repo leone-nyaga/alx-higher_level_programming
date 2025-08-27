@@ -596,4 +596,71 @@ void free_listint(listint_t *head)
 ```
 
 ```bash
+carrie@ubuntu:0x01$ cat 13-main.c 
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * main - check the code for
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    listint_t *head;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    print_listint(head);
+
+    printf("-----------------\n");
+
+    insert_node(&head, 27);
+
+    print_listint(head);
+
+    free_listint(head);
+
+    return (0);
+}
+```
+
+```bash
+carrie@ubuntu:0x01$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
+carrie@ubuntu:0x01$ ./insert
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+27
+98
+402
+1024
+carrie@ubuntu:0x01$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x01-python-if_else_loops_functions
++ File: 13-insert_number.c, lists.h
 
