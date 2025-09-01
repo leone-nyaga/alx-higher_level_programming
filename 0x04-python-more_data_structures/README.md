@@ -50,6 +50,19 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 + All your files must be executable
 + The length of your files will be tested using wc
 
+## Quiz Question
+
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda1.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda2-3.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda4.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda5.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda6.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda7.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda8.png)
+![task8](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda9-10.png)
+![task9](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/images/mda11.png)
+
 ## Tasks
 
 0. Squared simple
