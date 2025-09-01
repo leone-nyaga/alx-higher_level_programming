@@ -61,6 +61,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz Questions
 
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da0-1.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da2.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da3-4.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da5.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da6.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da7.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da8.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x03-python-data_structures/images/da9.png)
+
 ## Tasks
 
 0. Print a list of integers
