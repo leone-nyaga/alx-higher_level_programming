@@ -70,14 +70,14 @@ $ sudo npm install semistandard --global
 
 ## Quiz Questions
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj1.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj2.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj3.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj4.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj5.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj6.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x13-javascript_objects_scopes_closures/images/obj7.png)
 
 ## Tasks
 
