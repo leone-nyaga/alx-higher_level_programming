@@ -1,5 +1,7 @@
 # 0x06. Python - Classes and Objects
 
+![spongememe](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/image_2025-09-04_231219071.png)
+
 ## Background Context
 
 OOP is a totally new concept for all of you (especially those who think they know about it :)). It’s VERY important that you read at least all the material that is listed bellow (and skip what we recommend you to skip, you will see them later in the curriculum).
@@ -74,6 +76,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 Documentation is now mandatory! Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 ## Quiz Question
+
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop1.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop2.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop3.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop4.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop5.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop6.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x06-python-classes/images/oop7.png)
 
 ## Tasks
 
