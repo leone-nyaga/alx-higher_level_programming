@@ -73,7 +73,7 @@ Read or watch:
 ![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd0.png)
 ![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd1-2.png)
 ![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd3.png)
-![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd4-4.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd4-5.png)
 ![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x07-python-test_driven_development/images/tdd6.png)
 
 ## Tasks
