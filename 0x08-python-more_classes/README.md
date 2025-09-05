@@ -66,6 +66,16 @@ Read or watch:
 
 ## Quiz Question
 
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop0-1.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop2.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop3.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop4-5.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop6-7.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop8.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop9-10.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop11.png)
+![task8](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/moreoop12-13.png)
+
 ## Task
 
 0. Simple rectangle
@@ -698,7 +708,7 @@ Repo:
 
 10. N queens
 
-![Chess grandmaster Judit Polgár, the strongest female chess player of all time]()
+![Chess grandmaster Judit Polgár, the strongest female chess player of all time](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x08-python-more_classes/images/image_2025-09-05_211413792.png)
 
 The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 
