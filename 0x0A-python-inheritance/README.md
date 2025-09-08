@@ -66,16 +66,16 @@ Do not use the words import or from inside your comments, the checker will think
 
 ## Quiz Questions
 
-![task0]()
-![task1]()
-![task2]()
-![task3]()
-![task4]()
-![task5]()
-![task6]()
-![task7]()
-![task8]()
-![task9]()
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%200.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%201.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%202.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%203.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%204.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%205.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%206.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%207.png)
+![task8](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%208.png)
+![task9](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0A-python-inheritance/images/inheritance%209.png)
 
 ## Tasks
 
