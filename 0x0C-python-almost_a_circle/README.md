@@ -23,7 +23,7 @@ You will also learn about:
 + Serialization/Deserialization
 + JSON
 
-![catgif]()
+![catgif](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0C-python-almost_a_circle/images/gif%20cat.gif)
 
 ## Resources
 
