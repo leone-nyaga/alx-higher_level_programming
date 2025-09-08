@@ -66,6 +66,17 @@ Do not use the words import or from inside your comments, the checker will think
 
 ## Quiz Questions
 
+![task0]()
+![task1]()
+![task2]()
+![task3]()
+![task4]()
+![task5]()
+![task6]()
+![task7]()
+![task8]()
+![task9]()
+
 ## Tasks
 
 0. Lookup
