@@ -506,3 +506,226 @@ Repo:
 + GitHub repository: alx-higher_level_programming
 + Directory: 0x0C-python-almost_a_circle
 + File: models/rectangle.py
+
+10. And now, the Square!
+
+Write the class Square that inherits from Rectangle:
+
++ In the file models/square.py
++ Class Square inherits from Rectangle
++ Class constructor: def __init__(self, size, x=0, y=0, id=None)::
+  + Call the super class with id, x, y, width and height - this super call will use the logic of the __init__ of the Rectangle class. The width and height must be assigned to the value of size
+  + You must not create new attributes for this class, use all attributes of Rectangle - As reminder: a Square is a Rectangle with the same width and height
+  + All width, height, x and y validation must inherit from Rectangle - same behavior in case of wrong data
++ The overloading __str__ method should return [Square] (<id>) <x>/<y> - <size> - in our case, width or height
+
+As you know, a Square is a special Rectangle, so it makes sense this class Square inherits from Rectangle. Now you have a Square class who has the same attributes and same methods.
+
+```bash
+guillaume@ubuntu:~/$ cat 9-main.py
+#!/usr/bin/python3
+""" 9-main """
+from models.square import Square
+
+if __name__ == "__main__":
+
+    s1 = Square(5)
+    print(s1)
+    print(s1.area())
+    s1.display()
+
+    print("---")
+
+    s2 = Square(2, 2)
+    print(s2)
+    print(s2.area())
+    s2.display()
+
+    print("---")
+
+    s3 = Square(3, 1, 3)
+    print(s3)
+    print(s3.area())
+    s3.display()
+
+guillaume@ubuntu:~/$ ./9-main.py
+[Square] (1) 0/0 - 5
+25
+#####
+#####
+#####
+#####
+#####
+---
+[Square] (2) 2/0 - 2
+4
+  ##
+  ##
+---
+[Square] (3) 1/3 - 3
+9
+
+
+
+ ###
+ ###
+ ###
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0C-python-almost_a_circle
++ File: models/square.py
+
+11. Square size
+
+Update the class Square by adding the public getter and setter size
+
++ The setter should assign (in this order) the width and the height - with the same value
++ The setter should have the same value validation as the Rectangle for width and height - No need to change the exception error message (It should be the one from width)
+
+```bash
+guillaume@ubuntu:~/$ cat 10-main.py
+#!/usr/bin/python3
+""" 10-main """
+from models.square import Square
+
+if __name__ == "__main__":
+
+    s1 = Square(5)
+    print(s1)
+    print(s1.size)
+    s1.size = 10
+    print(s1)
+
+    try:
+        s1.size = "9"
+    except Exception as e:
+        print("[{}] {}".format(e.__class__.__name__, e))
+
+guillaume@ubuntu:~/$ ./10-main.py
+[Square] (1) 0/0 - 5
+5
+[Square] (1) 0/0 - 10
+[TypeError] width must be an integer
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0C-python-almost_a_circle
++ File: models/square.py
+
+12. Square update
+
+Update the class Square by adding the public method def update(self, *args, **kwargs) that assigns attributes:
+
++ *args is the list of arguments - no-keyworded arguments
+  + 1st argument should be the id attribute
+  + 2nd argument should be the size attribute
+  + 3rd argument should be the x attribute
+  + 4th argument should be the y attribute
++ **kwargs can be thought of as a double pointer to a dictionary: key/value (keyworded arguments)
++ **kwargs must be skipped if *args exists and is not empty
++ Each key in this dictionary represents an attribute to the instance
+
+```bash
+guillaume@ubuntu:~/$ cat 11-main.py
+#!/usr/bin/python3
+""" 11-main """
+from models.square import Square
+
+if __name__ == "__main__":
+
+    s1 = Square(5)
+    print(s1)
+
+    s1.update(10)
+    print(s1)
+
+    s1.update(1, 2)
+    print(s1)
+
+    s1.update(1, 2, 3)
+    print(s1)
+
+    s1.update(1, 2, 3, 4)
+    print(s1)
+
+    s1.update(x=12)
+    print(s1)
+
+    s1.update(size=7, y=1)
+    print(s1)
+
+    s1.update(size=7, id=89, y=1)
+    print(s1)
+
+guillaume@ubuntu:~/$ ./11-main.py
+[Square] (1) 0/0 - 5
+[Square] (10) 0/0 - 5
+[Square] (1) 0/0 - 2
+[Square] (1) 3/0 - 2
+[Square] (1) 3/4 - 2
+[Square] (1) 12/4 - 2
+[Square] (1) 12/1 - 7
+[Square] (89) 12/1 - 7
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0C-python-almost_a_circle
++ File: models/square.py
+
+13. Rectangle instance to dictionary representation
+
+Update the class Rectangle by adding the public method def to_dictionary(self): that returns the dictionary representation of a Rectangle:
+
+This dictionary must contain:
+
++ id
++ width
++ height
++ x
++ y
+
+```bash
+guillaume@ubuntu:~/$ cat 12-main.py
+#!/usr/bin/python3
+""" 12-main """
+from models.rectangle import Rectangle
+
+if __name__ == "__main__":
+
+    r1 = Rectangle(10, 2, 1, 9)
+    print(r1)
+    r1_dictionary = r1.to_dictionary()
+    print(r1_dictionary)
+    print(type(r1_dictionary))
+
+    r2 = Rectangle(1, 1)
+    print(r2)
+    r2.update(**r1_dictionary)
+    print(r2)
+    print(r1 == r2)
+
+guillaume@ubuntu:~/$ ./12-main.py
+[Rectangle] (1) 1/9 - 10/2
+{'x': 1, 'y': 9, 'id': 1, 'height': 2, 'width': 10}
+<class 'dict'>
+[Rectangle] (2) 0/0 - 1/1
+[Rectangle] (1) 1/9 - 10/2
+False
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0C-python-almost_a_circle
++ File: models/rectangle.py
