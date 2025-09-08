@@ -719,7 +719,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 
 Hint: NSMALLPOSINTS, NSMALLNEGINTS
 
-![mindblowngif]()
+![mindblowngif](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x09-python-everything_is_object/images/mindblowngif.gif)
 
 Repo:
 
