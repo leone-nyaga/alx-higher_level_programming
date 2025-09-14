@@ -265,4 +265,230 @@ Repo:
 + Directory: 0x0D-SQL_introduction
 + File: 3-list_tables.sql
 
+4. First table
 
+Write a script that creates a table called first_table in the current database in your MySQL server.
+
++ first_table description:
+  + id INT
+  + name VARCHAR(256)
++ The database name will be passed as an argument of the mysql command
++ If the table first_table already exists, your script should not fail
++ You are not allowed to use the SELECT or SHOW statements
+
+```bash
+guillaume@ubuntu:~/$ cat 4-first_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$ cat 3-list_tables.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+Tables_in_hbtn_0c_0
+first_table
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 4-first_table.sql
+
+5. Full description
+
+Write a script that prints the full description of the table first_table from the database hbtn_0c_0 in your MySQL server.
+
++ The database name will be passed as an argument of the mysql command
++ You are not allowed to use the DESCRIBE or EXPLAIN statements
+
+```bash
+guillaume@ubuntu:~/$ cat 5-full_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+Table   Create Table                                                                         
+first_table     CREATE TABLE `first_table` (\n  `id` int DEFAULT NULL,\n  `name` varchar(256) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci        
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 5-full_table.sql
+
+6. List all in table
+
+Write a script that lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server.
+
++ All fields should be printed
++ The database name will be passed as an argument of the mysql command
+
+```bash
+guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 6-list_values.sql
+
+7. First add
+
+Write a script that inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
+
++ New row:
+  + id = 89
+  + name = Best School
++ The database name will be passed as an argument of the mysql command
+
+```bash
+guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+id  name
+89  Best School
+guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$ cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$ cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+id  name
+89  Best School
+89  Best School
+89  Best School
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 7-insert_value.sql
+
+
+8. Count 89
+
+Write a script that displays the number of records with id = 89 in the table first_table of the database hbtn_0c_0 in your MySQL server.
+
++ The database name will be passed as an argument of the mysql command
+
+```bash
+guillaume@ubuntu:~/$ cat 8-count_89.sql | mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
+Enter password: 
+3
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 8-count_89.sql
+
+9. Full creation
+
+Write a script that creates a table second_table in the database hbtn_0c_0 in your MySQL server and add multiples rows.
+
++ second_table description:
+  + id INT
+  + name VARCHAR(256)
+  + score INT
++ The database name will be passed as an argument to the mysql command
++ If the table second_table already exists, your script should not fail
++ You are not allowed to use the SELECT and SHOW statements
++ Your script should create these records:
+  + id = 1, name = “John”, score = 10
+  + id = 2, name = “Alex”, score = 3
+  + id = 3, name = “Bob”, score = 14
+  + id = 4, name = “George”, score = 8
+
+```bash
+guillaume@ubuntu:~/$ cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 9-full_creation.sql
+
+10. Full creation
+
+Write a script that creates a table second_table in the database hbtn_0c_0 in your MySQL server and add multiples rows.
+
++ second_table description:
+  + id INT
+  + name VARCHAR(256)
+  + score INT
++ The database name will be passed as an argument to the mysql command
++ If the table second_table already exists, your script should not fail
++ You are not allowed to use the SELECT and SHOW statements
++ Your script should create these records:
+  + id = 1, name = “John”, score = 10
+  + id = 2, name = “Alex”, score = 3
+  + id = 3, name = “Bob”, score = 14
+  + id = 4, name = “George”, score = 8
+
+```bash
+guillaume@ubuntu:~/$ cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 9-full_creation.sql
+
+11. List by best
+
+Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+
++ Results should display both the score and the name (in this order)
++ Records should be ordered by score (top first)
++ The database name will be passed as an argument of the mysql command
+
+```bash
+guillaume@ubuntu:~/$ cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+score   name
+14  Bob
+10  John
+8   George
+3   Alex
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 10-top_score.sql
+
+12. Select the best
+
+Write a script that lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0 in your MySQL server.
+
++ Results should display both the score and the name (in this order)
++ Records should be ordered by score (top first)
++ The database name will be passed as an argument of the mysql command
+
+```bash
+guillaume@ubuntu:~/$ cat 11-best_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+score   name
+14  Bob
+10  John
+guillaume@ubuntu:~/$
+```
+
+Repo:
+
++ GitHub repository: alx-higher_level_programming
++ Directory: 0x0D-SQL_introduction
++ File: 11-best_score.sql
