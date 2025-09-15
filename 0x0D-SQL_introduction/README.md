@@ -125,6 +125,18 @@ $
 
 **In the container, credentials are root/root**
 
+## Quiz Question
+
+![task0](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql0.png)
+![task1](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql1.png)
+![task2](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql2.png)
+![task3](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql3.png)
+![task4](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql4-5.png)
+![task5](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql6.png)
+![task6](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql7.png)
+![task7](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sql8.png)
+![]()
+
 ## Tasks
 
 0. List databases
