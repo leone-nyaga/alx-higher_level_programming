@@ -1,6 +1,6 @@
 # 0x0D. SQL - Introduction
 
-![sqlmeme]()
+![sqlmeme](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0D-SQL_introduction/images/sqlmeme.jpg)
 
 ## Resources
 
