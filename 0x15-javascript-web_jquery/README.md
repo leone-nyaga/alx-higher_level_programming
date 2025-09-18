@@ -77,6 +77,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Quiz questions
 
+https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x15-javascript-web_jquery/QUIZ.md
 
 ## Tasks
 
