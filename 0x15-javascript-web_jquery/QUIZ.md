@@ -79,7 +79,7 @@ In the following code snippet, does the selector called ('header.my_header') acc
 
 (using document.querySelector or $(...))?
 
-```bash
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
