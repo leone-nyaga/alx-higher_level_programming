@@ -1,6 +1,6 @@
 # 0x15. JavaScript - Web jQuery
 
-![did somebody say jquery]()
+![did somebody say jquery](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x15-javascript-web_jquery/images/did%20sombody.jpg)
 
 ## Resources
 
@@ -69,7 +69,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 </head>
 ```
 
-![catmeme]()
+![catmeme](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x15-javascript-web_jquery/images/cat%20meme.jpg)
 
 ## Manual QA Review
 
