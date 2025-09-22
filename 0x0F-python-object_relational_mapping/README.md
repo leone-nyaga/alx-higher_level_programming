@@ -450,7 +450,7 @@ Repo:
   
 6. First state model
 
-![cat meme]()
+![cat meme](https://github.com/leone-nyaga/alx-higher_level_programming/blob/main/0x0F-python-object_relational_mapping/images/another%20cat%20meme.jpg)
 
 Write a python file that contains the class definition of a State and an instance Base = declarative_base():
 
