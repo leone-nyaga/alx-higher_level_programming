@@ -159,7 +159,7 @@ What is the name of the HTTP request header used to send cookies from the client
 
 1. Send-Cookie
 
-2. **Cookie**
+2. **Cookie** (ans)
 
 3. Cookies
 
@@ -396,7 +396,7 @@ In the following URL, what’s the resource path?
 https://www.google.com/index.html
 ```
 
-1. **index.html**
+1. **index.html** (ans)
 
 2. www.google.com/index.html
 
@@ -422,7 +422,7 @@ https://www.google.com/assets/scripts/main.js
 
 2. assets/scripts
 
-3. **assets/scripts/main.js**
+3. **assets/scripts/main.js** (ans)
 
 ## Question #31
 
@@ -470,7 +470,7 @@ http://www.google.com
 
 2. ftp
 
-3. **http**
+3. **http** (ans)
 
 ## Question #35
 
