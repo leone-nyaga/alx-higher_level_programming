@@ -65,48 +65,62 @@ Read or watch:
 
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to [explain to anyone](), without the help of Google:
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique), without the help of Google:
 
-General
-Why Python programming is awesome
-How to connect to a MySQL database from a Python script
-How to SELECT rows in a MySQL table from a Python script
-How to INSERT rows in a MySQL table from a Python script
-What ORM means
-How to map a Python Class to a MySQL table
-How to create a Python Virtual Environment
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-Your files will be executed with MySQLdb version 2.0.x
-Your files will be executed with SQLAlchemy version 1.4.x
-All your files should end with a new line
-The first line of all your files should be exactly #!/usr/bin/python3
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the pycodestyle (version 2.8.*)
-All your files must be executable
-The length of your files will be tested using wc
-All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
-A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
-You are not allowed to use execute with sqlalchemy
-More Info
-Install and activate venv
+## General
+
++ Why Python programming is awesome
++ How to connect to a MySQL database from a Python script
++ How to SELECT rows in a MySQL table from a Python script
++ How to INSERT rows in a MySQL table from a Python script
++ What ORM means
++ How to map a Python Class to a MySQL table
++ How to create a Python Virtual Environment
+
+## Copyright - Plagiarism
+
++ You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
++ You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
++ You are not allowed to publish any content of this project.
++ Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+## Requirements
+
+## General
+
++ Allowed editors: vi, vim, emacs
++ All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
++ Your files will be executed with MySQLdb version 2.0.x
++ Your files will be executed with SQLAlchemy version 1.4.x
++ All your files should end with a new line
++ The first line of all your files should be exactly #!/usr/bin/python3
++ A README.md file, at the root of the folder of the project, is mandatory
++ Your code should use the pycodestyle (version 2.8.*)
++ All your files must be executable
++ The length of your files will be tested using wc
++ All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
++ All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
++ All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
++ A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
++ You are not allowed to use execute with sqlalchemy
+
+## More Info
+
+## Install and activate venv
+
 To create a Python Virtual Environment, allowing you to install specific dependencies for this python project, we will install venv:
 
+```bash
 $ sudo apt-get install python3.8-venv
 $ python3 -m venv venv
 $ source venv/bin/activate
-Install MySQLdb module version 2.0.x
-For installing MySQLdb, you need to have MySQL installed: How to install MySQL 8.0 in Ubuntu 20.04
+```
 
+## Install MySQLdb module version 2.0.x
+
+For installing MySQLdb, you need to have MySQL installed: [How to install MySQL 8.0 in Ubuntu 20.04](https://github.com/leone-nyaga/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)
+
+```bash
 $ sudo apt-get install python3-dev
 $ sudo apt-get install libmysqlclient-dev
 $ sudo apt-get install zlib1g-dev
@@ -116,24 +130,33 @@ $ python3
 >>> import MySQLdb
 >>> MySQLdb.version_info 
 (2, 0, 3, 'final', 0)
-Install SQLAlchemy module version 1.4.x
+```
+
+## Install SQLAlchemy module version 1.4.x
+
+```bash
 $ sudo pip3 install SQLAlchemy
 ...
 $ python3
 >>> import sqlalchemy
 >>> sqlalchemy.__version__ 
 '1.4.22'
+```
+
 Also, you can have this warning message:
 
+```bash
 /usr/local/lib/python3.4/dist-packages/sqlalchemy/engine/default.py:552: Warning: (1681, "'@@SESSION.GTID_EXECUTED' is deprecated and will be re
 moved in a future release.")                                                                                                                    
-  cursor.execute(statement, parameters)  
+  cursor.execute(statement, parameters) 
+```
+
 You can ignore it.
 
-Tasks
+## Tasks
+
 0. Get all states
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a script that lists all states from the database hbtn_0e_0_usa:
 
 Your script should take 3 arguments: mysql username, mysql password and database name (no argument validation needed)
